@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1360C5273A1A4B00A13AD1 /* URL+Extansion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1360C4273A1A4B00A13AD1 /* URL+Extansion.swift */; };
 		7A3FFCF027294C8D00506451 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FFCEF27294C8D00506451 /* AppDelegate.swift */; };
 		7A3FFCF227294C8D00506451 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FFCF127294C8D00506451 /* SceneDelegate.swift */; };
 		7A3FFCF427294C8D00506451 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FFCF327294C8D00506451 /* ViewController.swift */; };
 		7A3FFCF727294C8D00506451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FFCF527294C8D00506451 /* Main.storyboard */; };
 		7A3FFCF927294C8F00506451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FFCF827294C8F00506451 /* Assets.xcassets */; };
 		7A3FFCFC27294C8F00506451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A3FFCFA27294C8F00506451 /* LaunchScreen.storyboard */; };
+		7A3FFD0527310AF300506451 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3FFD0427310AF300506451 /* PhotoInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A1360C4273A1A4B00A13AD1 /* URL+Extansion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extansion.swift"; sourceTree = "<group>"; };
 		7A3FFCEC27294C8D00506451 /* Http Session.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Http Session.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A3FFCEF27294C8D00506451 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A3FFCF127294C8D00506451 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		7A3FFCF827294C8F00506451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A3FFCFB27294C8F00506451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A3FFCFD27294C8F00506451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3FFD0427310AF300506451 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A1360C3273A1A0C00A13AD1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7A1360C4273A1A4B00A13AD1 /* URL+Extansion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		7A3FFCE327294C8D00506451 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,8 @@
 		7A3FFCEE27294C8D00506451 /* Http Session */ = {
 			isa = PBXGroup;
 			children = (
+				7A1360C3273A1A0C00A13AD1 /* Extensions */,
+				7A3FFD0327310A4000506451 /* Model */,
 				7A3FFCEF27294C8D00506451 /* AppDelegate.swift */,
 				7A3FFCF127294C8D00506451 /* SceneDelegate.swift */,
 				7A3FFCF327294C8D00506451 /* ViewController.swift */,
@@ -65,6 +79,14 @@
 				7A3FFCFD27294C8F00506451 /* Info.plist */,
 			);
 			path = "Http Session";
+			sourceTree = "<group>";
+		};
+		7A3FFD0327310A4000506451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A3FFD0427310AF300506451 /* PhotoInfo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1360C5273A1A4B00A13AD1 /* URL+Extansion.swift in Sources */,
+				7A3FFD0527310AF300506451 /* PhotoInfo.swift in Sources */,
 				7A3FFCF427294C8D00506451 /* ViewController.swift in Sources */,
 				7A3FFCF027294C8D00506451 /* AppDelegate.swift in Sources */,
 				7A3FFCF227294C8D00506451 /* SceneDelegate.swift in Sources */,
